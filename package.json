@@ -1,10 +1,10 @@
 {
-  "name": "@wangeditor/plugin-link-card",
-  "version": "1.0.0",
+  "name": "@xiamocc/plugin-link-card",
+  "version": "0.0.1",
   "description": "wangEditor link-card plugin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangeditor-team/wangEditor-plugin-link-card.git"
+    "url": "git+https://github.com/xiamocc/wangEditor-plugin-link-card.git"
   },
   "keywords": [
     "wangeditor",
@@ -14,9 +14,9 @@
   "author": "github.com/wangfupeng1988",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wangeditor-team/wangEditor-plugin-link-card/issues"
+    "url": "https://github.com/xiamocc/wangEditor-plugin-link-card/issues"
   },
-  "homepage": "https://github.com/wangeditor-team/wangEditor-plugin-link-card#readme",
+  "homepage": "https://github.com/xiamocc/wangEditor-plugin-link-card#readme",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/src/index.d.ts",
@@ -38,12 +38,6 @@
       "yarn lint",
       "yarn test"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "config": {
     "commitizen": {
